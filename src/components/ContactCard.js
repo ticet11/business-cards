@@ -7,7 +7,7 @@ export default function ContactCard(props) {
     const lastName = props.lastName;
     const phoneNumber = props.phoneNumber;
     return (
-        <div>
+        <div className='contact-card' >
             <img style={{ width: "50px" }} src={phone} alt="" />
             <p>{firstName}</p>
             <p>{lastName}</p>
